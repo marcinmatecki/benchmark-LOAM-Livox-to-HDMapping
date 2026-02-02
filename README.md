@@ -22,12 +22,12 @@ docker build -t loam_noetic .
 cd ~/hdmapping-benchmark/benchmark-LOAM-to-HDMapping
 chmod +x docker_session_run-ros1-loam.sh 
 cd ~/hdmapping-benchmark/data
-~/hdmapping-benchmark/benchmark-LeGO-LOAM-to-HDMapping/docker_session_run-ros1-loam.sh reg-1.bag-pc.bag .
+~/hdmapping-benchmark/benchmark-LOAM-to-HDMapping/docker_session_run-ros1-loam.sh reg-1.bag-pc.bag .
 ```
 
 ## Step 4 (Open and visualize data)
 Expected data should appear in ~/hdmapping-benchmark/data/output_hdmapping-loam
-Use tool [multi_view_tls_registration_step_2](https://github.com/MapsHD/HDMapping) to open session.json from ~/hdmapping-benchmark/data/output_hdmapping-lego-loam.
+Use tool [multi_view_tls_registration_step_2](https://github.com/MapsHD/HDMapping) to open session.json from ~/hdmapping-benchmark/data/output_hdmapping-loam.
 
 You should see following data
 
