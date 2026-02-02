@@ -2,7 +2,7 @@
 
 ## Hint
 
-Please change branch to [Bunker-DVI-Dataset-reg-1](https://github.com/MapsHD/benchmark-LeGO-LOAM-to-HDMapping/tree/Bunker-DVI-Dataset-reg-1?tab=readme-ov-file) for quick experiment.  
+Please change branch to [Bunker-DVI-Dataset-reg-1](https://github.com/MapsHD/benchmark-LOAM-Livox-to-HDMapping/tree/Bunker-DVI-Dataset-reg-1) for quick experiment.  
 
 ## Example Dataset: 
 
