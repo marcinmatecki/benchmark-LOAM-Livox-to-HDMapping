@@ -41,6 +41,9 @@ WORKDIR /ros_ws
 
 COPY ./src ./src
 
+RUN sed -i 's|/livox/lidar|/livox/pointcloud|g' \
+    /ros_ws/src/loam_livox/launch/livox.launch
+
 RUN source /opt/ros/noetic/setup.bash && \
     catkin_make
     
