@@ -19,10 +19,10 @@ docker build -t loam_noetic .
 
 ## Step 3 (run docker, file 'reg-1.bag-pc.bag' should be in '~/hdmapping-benchmark/data')
 ```shell
-cd ~/hdmapping-benchmark/benchmark-LOAM-to-HDMapping
+cd ~/hdmapping-benchmark/benchmark-LOAM-Livox-to-HDMapping
 chmod +x docker_session_run-ros1-loam.sh 
 cd ~/hdmapping-benchmark/data
-~/hdmapping-benchmark/benchmark-LOAM-to-HDMapping/docker_session_run-ros1-loam.sh reg-1.bag-pc.bag .
+~/hdmapping-benchmark/benchmark-LOAM-Livox-to-HDMapping/docker_session_run-ros1-loam.sh reg-1.bag-pc.bag .
 ```
 
 ## Step 4 (Open and visualize data)
